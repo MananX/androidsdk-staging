@@ -31,11 +31,31 @@
         <groupId>androidx.appcompat</groupId>
         <artifactId>appcompat</artifactId>
         <version>1.6.1</version>
+        
+        <exclusions>
+        <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+        </exclusion>
+    </exclusions>
+        
     </dependency>
     <dependency>
         <groupId>androidx.fragment</groupId>
         <artifactId>fragment-ktx</artifactId>
         <version>1.5.6</version>
+        
+        <exclusions>
+        <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity-ktx</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+        </exclusion>
+    </exclusions>
+        
     </dependency>
     <dependency>
         <groupId>com.google.android.material</groupId>
