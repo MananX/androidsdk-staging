@@ -99,12 +99,28 @@
         <artifactId>junit</artifactId>
         <version>4.13.2</version>
         <scope>test</scope>
+        
+         <exclusions>
+    <exclusion>
+      <groupId>androidx.test</groupId>
+      <artifactId>monitor</artifactId>
+    </exclusion>
+  </exclusions>
+        
     </dependency>
     <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>5.1.1</version>
         <scope>test</scope>
+        
+         <exclusions>
+    <exclusion>
+      <groupId>androidx.test</groupId>
+      <artifactId>monitor</artifactId>
+    </exclusion>
+  </exclusions>
+        
     </dependency>
     <dependency>
         <groupId>androidx.test.ext</groupId>
@@ -117,6 +133,14 @@
         <artifactId>espresso-core</artifactId>
         <version>3.5.1</version>
         <scope>androidTest</scope>
+        
+         <exclusions>
+    <exclusion>
+      <groupId>androidx.test</groupId>
+      <artifactId>monitor</artifactId>
+    </exclusion>
+  </exclusions>
+        
     </dependency>
 </dependencies>
 
