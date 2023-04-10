@@ -114,11 +114,10 @@
         <version>4.13.2</version>
         <scope>test</scope>
         
-          <exclusions>
+     <exclusions>
     <exclusion>
       <groupId>androidx.test</groupId>
       <artifactId>monitor</artifactId>
-      <version>1.6.0</version>
     </exclusion>
   </exclusions>
         
@@ -130,11 +129,10 @@
         <version>5.1.1</version>
         <scope>test</scope>
         
-          <exclusions>
+   <exclusions>
     <exclusion>
       <groupId>androidx.test</groupId>
       <artifactId>monitor</artifactId>
-      <version>1.6.0</version>
     </exclusion>
   </exclusions>
         
@@ -145,11 +143,10 @@
         <version>1.1.5</version>
         <scope>androidTest</scope>
         
-          <exclusions>
+   <exclusions>
     <exclusion>
       <groupId>androidx.test</groupId>
       <artifactId>monitor</artifactId>
-      <version>1.6.0</version>
     </exclusion>
   </exclusions>
         
@@ -160,11 +157,10 @@
         <version>3.5.1</version>
         <scope>androidTest</scope>
         
-          <exclusions>
+   <exclusions>
     <exclusion>
       <groupId>androidx.test</groupId>
       <artifactId>monitor</artifactId>
-      <version>1.6.0</version>
     </exclusion>
   </exclusions>
         
