@@ -14,54 +14,31 @@
     </repository>
 </repositories>
 
-  
-  
-  <dependencies>
+<dependencies>
     <dependency>
         <groupId>androidx.core</groupId>
         <artifactId>core-ktx</artifactId>
-        <version>1.7.0</version>
+        <version>1.9.0</version>
     </dependency>
     <dependency>
         <groupId>androidx.activity</groupId>
         <artifactId>activity-ktx</artifactId>
-        <version>1.4.0</version>
+        <version>1.7.0</version>
     </dependency>
     <dependency>
         <groupId>androidx.appcompat</groupId>
         <artifactId>appcompat</artifactId>
-        <version>1.4.0</version>
-        
-        <exclusions>
-        <exclusion>
-            <groupId>androidx.activity</groupId>
-            <artifactId>activity</artifactId>
-        </exclusion>
-    </exclusions>
-        
+        <version>1.6.1</version>
     </dependency>
     <dependency>
         <groupId>androidx.fragment</groupId>
         <artifactId>fragment-ktx</artifactId>
         <version>1.5.6</version>
-        
-        <exclusions>
-        <exclusion>
-            <groupId>androidx.activity</groupId>
-            <artifactId>activity-ktx</artifactId>
-        </exclusion>
-        <exclusion>
-            <groupId>androidx.activity</groupId>
-            <artifactId>activity</artifactId>
-        </exclusion>
-    </exclusions>
-        
     </dependency>
-
     <dependency>
         <groupId>com.google.android.material</groupId>
         <artifactId>material</artifactId>
-        <version>1.5.0</version>
+        <version>1.8.0</version>
     </dependency>
     <dependency>
         <groupId>com.google.android.gms</groupId>
@@ -100,28 +77,12 @@
         <artifactId>junit</artifactId>
         <version>4.13.2</version>
         <scope>test</scope>
-        
-         <exclusions>
-    <exclusion>
-      <groupId>androidx.test</groupId>
-      <artifactId>monitor</artifactId>
-    </exclusion>
-  </exclusions>
-        
     </dependency>
     <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
         <version>5.1.1</version>
         <scope>test</scope>
-        
-         <exclusions>
-    <exclusion>
-      <groupId>androidx.test</groupId>
-      <artifactId>monitor</artifactId>
-    </exclusion>
-  </exclusions>
-        
     </dependency>
     <dependency>
         <groupId>androidx.test.ext</groupId>
@@ -134,15 +95,8 @@
         <artifactId>espresso-core</artifactId>
         <version>3.5.1</version>
         <scope>androidTest</scope>
-        
-         <exclusions>
-    <exclusion>
-      <groupId>androidx.test</groupId>
-      <artifactId>monitor</artifactId>
-    </exclusion>
-  </exclusions>
-        
     </dependency>
 </dependencies>
+
 
 </project>
