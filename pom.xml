@@ -24,21 +24,51 @@
         <groupId>androidx.activity</groupId>
         <artifactId>activity-ktx</artifactId>
         <version>1.7.0</version>
+        
+         <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+        </exclusion>
+        
     </dependency>
     <dependency>
         <groupId>androidx.appcompat</groupId>
         <artifactId>appcompat</artifactId>
         <version>1.6.1</version>
+        
+        <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+        </exclusion>
+        
     </dependency>
     <dependency>
         <groupId>androidx.fragment</groupId>
         <artifactId>fragment-ktx</artifactId>
         <version>1.5.6</version>
+        
+         <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+        </exclusion>
+        
     </dependency>
     <dependency>
         <groupId>com.google.android.material</groupId>
         <artifactId>material</artifactId>
         <version>1.8.0</version>
+        
+        <exclusions>
+        <exclusion>
+            <groupId>androidx.fragment</groupId>
+            <artifactId>fragment</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity</artifactId>
+        </exclusion>
+    </exclusions>
+        
     </dependency>
     <dependency>
         <groupId>com.google.android.gms</groupId>
