@@ -25,10 +25,12 @@
         <artifactId>activity-ktx</artifactId>
         <version>1.7.0</version>
         
+        <exclusions>
          <exclusion>
             <groupId>androidx.activity</groupId>
             <artifactId>activity</artifactId>
         </exclusion>
+        </exclusions>
         
     </dependency>
     <dependency>
@@ -36,10 +38,12 @@
         <artifactId>appcompat</artifactId>
         <version>1.6.1</version>
         
+        <exclusions>
         <exclusion>
             <groupId>androidx.activity</groupId>
             <artifactId>activity</artifactId>
         </exclusion>
+        </exclusions>
         
     </dependency>
     <dependency>
@@ -47,10 +51,12 @@
         <artifactId>fragment-ktx</artifactId>
         <version>1.5.6</version>
         
+        <exclusions>
          <exclusion>
             <groupId>androidx.activity</groupId>
             <artifactId>activity</artifactId>
         </exclusion>
+        </exclusions>
         
     </dependency>
     <dependency>
