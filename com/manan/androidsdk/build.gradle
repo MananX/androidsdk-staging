@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.example.library'
+archivesBaseName = 'library'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('file://' + projectDir.getAbsolutePath() + '/maven'))
+        }
+    }
+}
